@@ -1,0 +1,28 @@
+{
+    "mqtt": {
+        "broker": "192.168.50.188",
+        "port": 1883,
+        "topic": "shrimp"
+    },
+    "database": {
+        "path": "C:\\Users\\vopyen\\Desktop\\web-1209\\instance\\users.db"
+    },
+    "report": {
+        "save_folder": "C:\\Users\\vopyen\\Desktop\\PicoSensor\\0301\\daily-excel",
+        "days_to_keep": 1 
+    },
+    "thresholds": {
+        "ph_max": 13.0,
+        "ph_min": 2,
+        "orp_max": 1000,
+        "orp_min": -1000,
+        "temp_min": -125,
+        "temp_max": 40
+    },
+    "surge_protection": {
+        "enabled": true,
+        "window_size": 5,
+        "ph_surge_limit": 0.5,
+        "orp_surge_limit": 50.0
+    }
+}
